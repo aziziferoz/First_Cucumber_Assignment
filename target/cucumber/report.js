@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4053628700,
+  "duration": 4268877300,
   "status": "passed"
 });
 formatter.scenario({
@@ -53,7 +53,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_is_on_the_Techfios_login_page()"
 });
 formatter.result({
-  "duration": 86701800,
+  "duration": 71289100,
   "status": "passed"
 });
 formatter.match({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_username_as(String)"
 });
 formatter.result({
-  "duration": 110478500,
+  "duration": 99468600,
   "status": "passed"
 });
 formatter.match({
@@ -79,25 +79,25 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 93769400,
+  "duration": 79964400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_signin_button()"
 });
 formatter.result({
-  "duration": 1470547100,
+  "duration": 1465659800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_should_land_on_dashboard_page()"
 });
 formatter.result({
-  "duration": 10989000,
+  "duration": 8498600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3300415600,
+  "duration": 3396655000,
   "status": "passed"
 });
 formatter.scenario({
@@ -148,42 +148,42 @@ formatter.match({
   "location": "BankAndCashStepsDefinition.User_is_on_the_dashboard_page()"
 });
 formatter.result({
-  "duration": 4407042500,
+  "duration": 4198196800,
   "status": "passed"
 });
 formatter.match({
   "location": "BankAndCashStepsDefinition.user_clicks_on_Bank_and_Cash_button()"
 });
 formatter.result({
-  "duration": 63830400,
+  "duration": 101976900,
   "status": "passed"
 });
 formatter.match({
   "location": "BankAndCashStepsDefinition.user_clicks_on_New_Account()"
 });
 formatter.result({
-  "duration": 1146911500,
+  "duration": 912305500,
   "status": "passed"
 });
 formatter.match({
   "location": "BankAndCashStepsDefinition.user_fills_out_the_form()"
 });
 formatter.result({
-  "duration": 621033700,
+  "duration": 570411400,
   "status": "passed"
 });
 formatter.match({
   "location": "BankAndCashStepsDefinition.clicks_submit()"
 });
 formatter.result({
-  "duration": 1230109000,
+  "duration": 1200553800,
   "status": "passed"
 });
 formatter.match({
   "location": "BankAndCashStepsDefinition.the_account_should_be_successfully_created()"
 });
 formatter.result({
-  "duration": 18600,
+  "duration": 126900,
   "status": "passed"
 });
 });

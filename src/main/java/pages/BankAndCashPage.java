@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.Random;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -36,8 +38,11 @@ public class BankAndCashPage {
 	@FindBy(how = How.XPATH, using = "//button[@class='btn btn-primary']")
 	WebElement submit_Button_Element;
 
+	Random rnd = new Random();
+	int generatedNo = rnd.nextInt(999);
+	
 	public void click_on_bank_And_Cash() {
-		bank_And_Cash_Element.click();
+		bank_And_Cash_Element.click();		
 	}
 	
 	public void click_on_New_Account() {
@@ -45,31 +50,31 @@ public class BankAndCashPage {
 	}
 
 	public void insert_Account_Title() {
-		account_Title_Element_Button.sendKeys("Techfios2356");
+		account_Title_Element_Button.sendKeys("Techfios2356" +generatedNo);
 	}
 
 	public void insert_description() {
-		description_Button.sendKeys("Techfios2356");
+		description_Button.sendKeys("Techfios" +generatedNo);
 	}
 
 	public void insert_initial_Balance() {
-		initial_Balance_Element.sendKeys("1235687");
+		initial_Balance_Element.sendKeys("1235687" +generatedNo);
 	}
 
 	public void insert_account_Number() {
-		account_Number_Element.sendKeys("98766465");
+		account_Number_Element.sendKeys("98766465" +generatedNo);
 	}
 
 	public void insert_contact_Person() {
-		contact_Person_Element.sendKeys("Ashraf");
+		contact_Person_Element.sendKeys(generatedNo+ "Ashraf");
 	}
 
 	public void insert_phone() {
-		phone_Element.sendKeys("5479863");
+		phone_Element.sendKeys("5479863" +generatedNo);
 	}
 
 	public void insert_internet_Banking_Url() {
-		internet_Banking_Url_Element.sendKeys("www.techfios.com");
+		internet_Banking_Url_Element.sendKeys("www.techfios.com"+generatedNo);
 	}
 
 	public void click_submit_Button() {
