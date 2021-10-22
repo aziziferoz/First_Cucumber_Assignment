@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4053628700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "techfios-login-functionality-validation;user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86701800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110478500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93769400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1470547100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10989000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3300415600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should be able to create a new account",
+        "description": "",
+        "id": "techfios-login-functionality-validation;user-should-be-able-to-create-a-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4407042500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on the dashboard page",
+            "match": {
+              "location": "BankAndCashStepsDefinition.User_is_on_the_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63830400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on Bank and Cash button",
+            "match": {
+              "location": "BankAndCashStepsDefinition.user_clicks_on_Bank_and_Cash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1146911500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on New Account",
+            "match": {
+              "location": "BankAndCashStepsDefinition.user_clicks_on_New_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 621033700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User fills out the form",
+            "match": {
+              "location": "BankAndCashStepsDefinition.user_fills_out_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1230109000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicks submit",
+            "match": {
+              "location": "BankAndCashStepsDefinition.clicks_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The account should be successfully created",
+            "match": {
+              "location": "BankAndCashStepsDefinition.the_account_should_be_successfully_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TechFios login functionality validation",
+    "description": "",
+    "id": "techfios-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/TF_Login.feature"
+  }
+]
